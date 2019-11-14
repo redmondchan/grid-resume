@@ -1,3 +1,28 @@
-body {
+.header {
+  grid-area: header;
   background-color: red;
+}
+.left {
+  display: grid;
+  grid-area: left;
+  grid-template-rows: 25% 25% 25% 25%;
+  background-color: yellow;
+}
+.right {
+  grid-area: right;
+  background-color: green;
+}
+
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "left right right"
+    "left right right"
+    "left right right"
+    "left right right";
 }
