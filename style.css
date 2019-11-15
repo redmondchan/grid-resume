@@ -5,6 +5,10 @@
   grid-template-columns: 40% 60%;
 }
 
+.title {
+  display: block;
+}
+
 .left {
   display: grid;
   grid-area: left;
