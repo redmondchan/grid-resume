@@ -1,7 +1,10 @@
 .header {
+  display: grid;
   grid-area: header;
   background-color: red;
+  grid-template-columns: 40% 60%;
 }
+
 .left {
   display: grid;
   grid-area: left;
