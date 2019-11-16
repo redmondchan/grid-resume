@@ -1,12 +1,34 @@
+* {
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+  /* width: 8.5in;
+  height: 11in;
+  margin: 0; */
+}
+
+html {
+  font-size: 62.5%; /* 10/16 = 62.5%, 1rem = 10px */
+}
+
 .header {
   display: grid;
   grid-area: header;
   background-color: red;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 45% 55%;
+}
+
+.large-font {
+  font-size: 5rem;
+}
+
+.name {
+  font-size: 5rem;
 }
 
 .title {
   display: block;
+  font-size: 2.5rem;
 }
 
 .left {
@@ -22,12 +44,15 @@
 
 
 .container {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 11in;
+  width: 8.5in;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
     "header header header"
+    "left right right"
     "left right right"
     "left right right"
     "left right right"
