@@ -1,5 +1,5 @@
 * {
-  padding: 1;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -13,6 +13,12 @@ html {
   grid-area: header;
   background-color: red;
   grid-template-columns: 45% 55%;
+  padding: 2rem;
+}
+
+.description {
+  display: grid;
+  align-self: center;
 }
 
 .large-font {
@@ -45,12 +51,8 @@ html {
   width: 8.5in;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: 15% 85%;
   grid-template-areas:
-    "header header header"
-    "left right right"
-    "left right right"
-    "left right right"
-    "left right right"
-    "left right right";
+   "header header header"
+   "left right right";
 }
