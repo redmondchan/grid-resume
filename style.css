@@ -65,12 +65,17 @@ li {
   width: 100%;
 }
 
+ul {
+  padding-top: .5rem;
+  font-size: 2rem;
+}
+
 
 .container {
   height: 11in;
   width: 8.5in;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 44% 28% 28%;
   grid-template-rows: 15% 85%;
   grid-template-areas:
    "header header header"
