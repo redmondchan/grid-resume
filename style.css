@@ -39,7 +39,7 @@ html {
   grid-area: left;
   grid-template-rows: 25% 25% 25% 25%;
   background-color: yellow;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .right {
   grid-area: right;
@@ -53,6 +53,8 @@ li {
 
 .section-name {
   /* border-bottom: 1px solid; */
+  font-size: 3rem;
+  line-height: 3.1rem;
 }
 
 .section-name:after {
