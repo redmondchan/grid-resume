@@ -26,7 +26,7 @@ html {
 }
 
 .name {
-  color: #00A86b;
+  color: #2e8b57;
   font-size: 5rem;
 }
 
@@ -46,10 +46,17 @@ html {
   grid-area: right;
   /* background-color: green; */
   padding: 0 2rem 2rem 2rem;
+  border-left-style: solid;
+border-image:
+  linear-gradient(
+    white,
+    grey,
+    white
+  ) 1 100%;
 }
 
 dl:nth-last-child(1) {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 li {
@@ -58,7 +65,7 @@ li {
 
 .section-name {
   /* border-bottom: 1px solid; */
-  color: #00A86b;
+  color: #2e8b57;
   font-size: 3rem;
   line-height: 4rem;
 
@@ -67,7 +74,8 @@ li {
 .section-name:after {
   content: "";
   display: block;
-  background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgba(83, 0, 30, 1) 100%);
+  /* background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgba(83, 0, 30, 1) 100%); */
+  background-image: linear-gradient(to right, grey, white);
   height:2px;
   width: 100%;
 }
@@ -78,6 +86,18 @@ ul, dl {
   padding-bottom: 1rem;
 }
 
+dt {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.normal {
+  font-weight: normal;
+}
+
 
 
 .container {
@@ -85,10 +105,11 @@ ul, dl {
   width: 8.5in;
   display: grid;
   grid-template-columns: 32% 34% 34%;
-  grid-template-rows: 13% 87%;
+  grid-template-rows: 13% 80% 7%;
   grid-template-areas:
    "header header header"
-   "left right right";
+   "left right right"
+   "footer footer footer";
 }
 
 
