@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #101010;
 }
 
 html {
@@ -19,6 +20,7 @@ html {
 .description {
   display: grid;
   align-self: center;
+  font-size: 1.5rem;
 }
 
 .large-font {
@@ -30,9 +32,14 @@ html {
   font-size: 5rem;
 }
 
+a {
+  color: blue;
+}
+
 .title {
   display: block;
   font-size: 2.5rem;
+  color: #2E8B57;
 }
 
 .left {
@@ -50,7 +57,7 @@ html {
 border-image:
   linear-gradient(
     white,
-    grey,
+    #D3D3D3,
     white
   ) 1 100%;
 }
@@ -75,7 +82,7 @@ li {
   content: "";
   display: block;
   /* background: -webkit-linear-gradient(left, rgba(92, 7, 52, 1) 0%, rgba(134, 29, 84, 1) 12%, rgba(255, 93, 177, 1) 47%, rgba(83, 0, 30, 1) 100%); */
-  background-image: linear-gradient(to right, grey, white);
+  background-image: linear-gradient(to right, #D3D3D3, white);
   height:2px;
   width: 100%;
 }
