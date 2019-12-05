@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   color: #101010;
+  font-family: EB Garamond;
 }
 
 html {
@@ -27,7 +28,8 @@ html {
 }
 
 .name {
-  color: #2e8b57;
+  color: #006400;
+  /* color: #2e8b57; */
   font-size: 5rem;
 }
 
@@ -38,7 +40,8 @@ a {
 .title {
   display: block;
   font-size: 2.5rem;
-  color: #2E8B57;
+  color: #006400;
+  /* color: #2E8B57; */
 }
 
 .left {
@@ -68,7 +71,8 @@ li {
 }
 
 .section-name {
-  color: #2e8b57;
+  color: #006400;
+  /* color: #2e8b57; */
   font-size: 3rem;
   line-height: 4rem;
 
@@ -84,7 +88,7 @@ li {
 
 ul, dl {
   padding-top: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding-bottom: 1rem;
 }
 
