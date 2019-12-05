@@ -109,9 +109,8 @@ dt {
   width: 8.5in;
   display: grid;
   grid-template-columns: 32% 34% 34%;
-  grid-template-rows: 13% 80% 7%;
+  grid-template-rows: 13% 87%;
   grid-template-areas:
    "header header header"
-   "left right right"
-   "footer footer footer";
+   "left right right";
 }
