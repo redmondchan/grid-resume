@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   color: #101010;
-  font-family: EB Garamond;
+  font-family: Calibri;
 }
 
 html {
@@ -20,7 +20,7 @@ html {
 .description {
   display: grid;
   align-self: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .large-font {
@@ -28,7 +28,8 @@ html {
 }
 
 .name {
-  color: #006400;
+  /* color: #006400; */
+  color: #556B2F;
   /* color: #2e8b57; */
   font-size: 5rem;
 }
@@ -40,14 +41,15 @@ a {
 .title {
   display: block;
   font-size: 2.5rem;
-  color: #006400;
+  color: #556B2F;
+  /* color: #006400; */
   /* color: #2E8B57; */
 }
 
 .left {
   display: grid;
   grid-area: left;
-  grid-template-rows: 25% 28% 47%;
+  grid-template-rows: 25% 33% 42%;
   padding: 0 2rem 2rem 2rem;
 }
 .right {
@@ -70,10 +72,16 @@ li {
   list-style-type: none;
 }
 
+.padding-bottom {
+  padding-bottom: 2rem;
+}
+
 .section-name {
-  color: #006400;
+  color: #556B2F;
+  /* color: #006400; */
   /* color: #2e8b57; */
   font-size: 3rem;
+  font-weight: bold;
   line-height: 4rem;
 
 }
@@ -101,7 +109,7 @@ dt {
 }
 
 .normal {
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .container {
@@ -109,8 +117,9 @@ dt {
   width: 8.5in;
   display: grid;
   grid-template-columns: 32% 34% 34%;
-  grid-template-rows: 13% 87%;
+  grid-template-rows: 14% 83% 3%;
   grid-template-areas:
    "header header header"
-   "left right right";
+   "left right right"
+   "footer footer footer";
 }
